@@ -21,7 +21,7 @@ class Doctor
     appointments.map{|appointment| appointment.patient}
   end 
   
-  def new_appointment(patient, date)
+  def new_appointment(date, )
     Appointment.new( date, patient, self)
   end
   
